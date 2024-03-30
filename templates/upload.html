@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload PDF</title>
+    <!-- Include any CSS files here -->
+  </head>
+  <body>
+    <h1>Upload PDF</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="pdf_file" accept=".pdf" required />
+      <button type="submit">Upload</button>
+    </form>
+    <p>Already uploaded your PDFs? <a href="/chatbot">Go to Chatbot</a></p>
+  </body>
+</html>
